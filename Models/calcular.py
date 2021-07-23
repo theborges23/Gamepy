@@ -83,4 +83,4 @@ class Calcular:
         return certo
 
     def mostrar_operacao(self: object) -> None:
-        pass
+        print(f'{self.valor1} {self._op_simbolo} {self.valor2} = ?')
